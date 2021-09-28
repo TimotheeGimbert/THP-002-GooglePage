@@ -132,6 +132,7 @@ footer {
   }
   > section {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     border: 1px solid transparent;
     border-top-color: rgba(143, 134, 134, 0.541);
