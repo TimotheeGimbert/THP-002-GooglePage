@@ -21,9 +21,7 @@ header {
   gap: 15px;
   a { 
     &:link, &:visited {color: black; text-decoration: none;}
-    &:hover {
-      text-decoration: underline;
-    }
+    &:hover { text-decoration: underline; }
   }
   button { 
     &:hover {
