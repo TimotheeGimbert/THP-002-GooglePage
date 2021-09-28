@@ -1,0 +1,6 @@
+body {
+    background-color: rgb(211, 204, 204);
+    & > * {
+        border: 1px solid black;
+    }
+}
