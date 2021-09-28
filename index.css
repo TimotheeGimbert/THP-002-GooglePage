@@ -10,6 +10,7 @@ html {
 
 a:link, a:visited, a:active {
   text-decoration: none !important;
+  color: black;
 }
 
 body {
@@ -20,28 +21,28 @@ body {
   background-color: rgba(255, 255, 255, 0.877);
   font-family: arial, sans-serif;
   font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0px;
 }
 
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 10px 20px;
-  gap: 20px;
-}
-header a {
-  color: black;
+  padding: 12px 20px;
+  gap: 18px;
 }
 header img {
   width: 20px;
-  border: 1px solid red;
+  margin: 0 6px;
 }
 header button {
-  padding: 8px 23px;
+  padding: 8px 22px;
   background-color: #1a73e8;
   border-color: #1a73e8;
   border-radius: 5px;
   font-size: 14px;
+  letter-spacing: 0.5px;
   color: white;
 }
 
