@@ -85,7 +85,8 @@ main section#searchSection {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 600px;
+  width: 90%;
+  max-width: 580px;
 }
 main section#searchSection img {
   height: 25px;
