@@ -21,19 +21,30 @@ header {
   align-items: center;
   padding: 12px 20px;
   gap: 18px;
- 
-  img {
-    width: 20px;
-    margin: 0 6px;
+  a {
+    display: flex;
+    img {
+      width: 20px;
+      margin: 0 6px;
+      &:hover {
+        background-color: #e7e7e7;
+      }
+    }
+    &:hover {
+      color: #1a73e8;;
+    }
   }
   button {
     padding: 8px 22px;
     background-color: #1a73e8;
-    border-color: #1a73e8;
+    border-color: transparent;
     border-radius: 5px;
     font-size: 14px;
     letter-spacing: 0.5px;
     color: white;
+    &:hover {
+      background-color: #1a73e8c2;
+    }
   }
 }
 

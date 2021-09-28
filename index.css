@@ -32,18 +32,30 @@ header {
   padding: 12px 20px;
   gap: 18px;
 }
-header img {
+header a {
+  display: flex;
+}
+header a img {
   width: 20px;
   margin: 0 6px;
+}
+header a img:hover {
+  background-color: #e7e7e7;
+}
+header a:hover {
+  color: #1a73e8;
 }
 header button {
   padding: 8px 22px;
   background-color: #1a73e8;
-  border-color: #1a73e8;
+  border-color: transparent;
   border-radius: 5px;
   font-size: 14px;
   letter-spacing: 0.5px;
   color: white;
+}
+header button:hover {
+  background-color: #1a73e8c2;
 }
 
 #main {
