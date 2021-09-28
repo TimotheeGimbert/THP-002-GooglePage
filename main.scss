@@ -67,24 +67,39 @@ main {
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 150px;
+  padding-bottom: 146px;
+  figure {
+    max-width: 272px;
+    img {
+      width: 100%;
+    }
+  }
   input {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
     width: 75%;
+    height: 46px;
     max-width: 600px;
-    margin: 30px 0;
-    padding: 10px;
+    margin: 22px 0 30px 0;
+    padding: 11px;
     border-radius: 20px;
     border-color: rgba(184, 178, 178, 0.151);
     &:hover {
       box-shadow: 0 0 1px rgba(128, 128, 128, 0.582);
       border-color: rgba(184, 178, 178, 0.63);
     }
+    /* img {
+      height: 20px;;
+      width: auto;
+    } */
   }
-  
-  #subSearch {
+
+  div {
     button {
       margin: 0 6px;
-      padding: 6px 13px;
+      padding: 7px 13px;
       font-family: arial, sans-serif;
       font-size: 14px;
 
