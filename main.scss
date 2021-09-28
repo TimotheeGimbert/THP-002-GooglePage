@@ -3,62 +3,61 @@ html {box-sizing: border-box; }
 a:link, a:visited, a:active { text-decoration: none !important; }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.877);   
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.877);  
+  
+  font-family: arial,sans-serif;
+  font-size: 13px;
 }
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px 20px;
-    gap: 20px;
-
-    a {
-        color: black;
-    }
-
-    button {
-        padding: 8px 23px;
-        background-color: #1a73e8;
-        border-color: #1a73e8;
-        border-radius: 5px;
-        font-size: 14px;
-        color: white;
-    }
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 20px;
+  a {
+    color: black;
+  }
+  img {
+    width: 20px;
+    border: 1px solid red;
+  }
+  button {
+    padding: 8px 23px;
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+  }
 }
 
 #main {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
-
-    padding-bottom: 160px;
-
-    input {
-        min-width: 25%;
-        margin: 40px 0;
-    }
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 160px;
+  input {
+    min-width: 25%;
+    margin: 40px 0;
+  }
 }
 
 footer {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-flow: column nowrap;
+  & > section {
     display: flex;
-    flex-flow: column nowrap;
-
-    & > section {
-        display: flex;
-        justify-content: space-between;
-    }
-
-
-
-    & > * {
-        border: 1px solid black;
-        padding: 10px;
-    }
+    justify-content: space-between;
+  }
+  & > * {
+    border: 1px solid black;
+    padding: 10px;
+  }
 }

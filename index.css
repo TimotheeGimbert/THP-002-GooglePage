@@ -18,6 +18,8 @@ body {
   flex-flow: column nowrap;
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.877);
+  font-family: arial, sans-serif;
+  font-size: 13px;
 }
 
 header {
@@ -29,6 +31,10 @@ header {
 }
 header a {
   color: black;
+}
+header img {
+  width: 20px;
+  border: 1px solid red;
 }
 header button {
   padding: 8px 23px;
