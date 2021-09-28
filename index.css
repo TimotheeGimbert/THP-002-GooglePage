@@ -80,26 +80,30 @@ main figure {
 main figure img {
   width: 100%;
 }
-main input {
-  width: 100%;
+main section {
   display: flex;
-  flex-flow: row nowrap;
   align-items: center;
-  width: 75%;
+  justify-content: center;
+  gap: 10px;
+  width: 600px;
+}
+main section img {
+  height: 25px;
+  width: auto;
+}
+main section input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   height: 46px;
-  max-width: 600px;
+  width: 100%;
   margin: 22px 0 30px 0;
   padding: 11px;
-  border-radius: 20px;
+  border-radius: 25px;
   border-color: rgba(184, 178, 178, 0.151);
-  /* img {
-    height: 20px;;
-    width: auto;
-  } */
 }
-main input:hover {
-  box-shadow: 0 0 1px rgba(128, 128, 128, 0.582);
-  border-color: rgba(184, 178, 178, 0.63);
+main section input:hover {
+  box-shadow: 0 2px 2px rgba(128, 128, 128, 0.431);
 }
 main div button {
   margin: 0 6px;
