@@ -10,7 +10,6 @@ html {
 
 a:link, a:visited, a:active {
   text-decoration: none !important;
-  color: black;
 }
 
 body {
@@ -31,6 +30,9 @@ header {
   align-items: center;
   padding: 12px 20px;
   gap: 18px;
+}
+header a:link, header a:visited, header a:active {
+  color: black;
 }
 header a {
   display: flex;
@@ -86,29 +88,33 @@ header button:hover {
 }
 #main #subSearch button {
   margin: 0 10px;
-  padding: 10px 20px;
+  padding: 6px 13px;
   font-size: 14px;
-  background-color: rgba(184, 178, 178, 0.151);
+  background-color: rgba(207, 203, 203, 0.151);
   border-color: transparent;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 #main #subSearch button:hover {
-  box-shadow: 0 0 3px grey;
-  border-color: rgba(184, 178, 178, 0.63);
+  box-shadow: 0 0 1px grey;
 }
 
 footer {
   background-color: #f2f2f2;
   display: flex;
   flex-flow: column nowrap;
+  color: rgba(70, 67, 67, 0.911);
+  font-size: 14px;
+}
+footer > * {
+  padding: 15px;
 }
 footer > section {
   display: flex;
   justify-content: space-between;
 }
-footer > * {
-  border: 1px solid black;
-  padding: 10px;
+footer a {
+  margin: 0 15px;
+  color: rgba(70, 67, 67, 0.911);
 }
 
 /*# sourceMappingURL=index.css.map */
