@@ -33,6 +33,9 @@ header a:link, header a:visited {
 header a:hover {
   text-decoration: underline;
 }
+header button:hover {
+  cursor: pointer;
+}
 header button.buttonApps {
   display: flex;
   justify-content: center;
@@ -95,6 +98,7 @@ main #subSearch button {
 }
 main #subSearch button:hover {
   box-shadow: 0 0 1px grey;
+  cursor: pointer;
 }
 
 footer {
@@ -105,7 +109,7 @@ footer {
   font-size: 14px;
 }
 footer > * {
-  padding: 14px;
+  padding: 15px;
 }
 footer > section {
   display: flex;
@@ -129,6 +133,9 @@ footer a:hover {
 footer img {
   width: 12px;
   margin-right: 5px;
+}
+footer > div {
+  padding-left: 25px;
 }
 
 /*# sourceMappingURL=index.css.map */
