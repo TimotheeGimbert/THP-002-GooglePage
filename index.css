@@ -51,4 +51,18 @@ header button {
   margin: 40px 0;
 }
 
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-flow: column nowrap;
+}
+footer > section {
+  display: flex;
+  justify-content: space-between;
+}
+footer > * {
+  border: 1px solid black;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=index.css.map */
