@@ -26,18 +26,17 @@ header {
   padding: 10px 18px;
   gap: 15px;
   a { 
-    //&:link {color: black;}
+    &:link {color: black;}
     &:visited {color: black;}
     &:active {text-decoration: none !important;}
   }
   button { 
     &.buttonApps {
       display: flex;
-      justify-content: flex-end;
+      justify-content: center;
       align-items: center;
       width: 40px;
       height: 40px;
-      padding-right: 5px;
       border-color: transparent;
       border-radius: 30px;
       background-color: transparent;
