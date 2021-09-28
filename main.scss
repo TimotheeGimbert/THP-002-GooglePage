@@ -1,4 +1,4 @@
-html {box-sizing: border-box; }
+html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; margin: 0; padding: 0; }
 a:link, a:visited, a:active { text-decoration: none !important; color: black; }
 
@@ -58,6 +58,20 @@ header {
     min-width: 25%;
     margin: 40px 0;
   }
+  #subSearch {
+    button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      font-size: 14px;
+      background-color: rgba(184, 178, 178, 0.151);
+      border-color: transparent;
+      border-radius : 10px;
+      &:hover {
+        border-color: rgba(184, 178, 178, 0.63);
+      }
+    }
+  }
+
 }
 
 footer {
