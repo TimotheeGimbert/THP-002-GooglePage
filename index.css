@@ -66,8 +66,11 @@ header button:hover {
   padding-bottom: 160px;
 }
 #main input {
-  min-width: 25%;
+  min-width: 30%;
   margin: 40px 0;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: rgba(184, 178, 178, 0.151);
 }
 #main #subSearch button {
   margin: 0 10px;
