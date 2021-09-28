@@ -132,6 +132,7 @@ footer {
 }
 footer > div {
   padding: 15px;
+  padding-left: 25px;
 }
 footer > section {
   display: flex;
