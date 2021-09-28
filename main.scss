@@ -1,10 +1,10 @@
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; margin: 0; padding: 0; }
-a { 
+/* a { 
   &:link {text-decoration: none !important;}
   &:visited {text-decoration: none !important;}
   &:active {text-decoration: none !important;}
-}
+} */
 
 
 body {
@@ -26,9 +26,10 @@ header {
   padding: 10px 18px;
   gap: 15px;
   a { 
-    &:link {color: black;}
-    &:visited {color: black;}
-    &:active {text-decoration: none !important;}
+    &:link, &:visited {color: black; text-decoration: none;}
+    &:hover {
+      text-decoration: underline;
+    }
   }
   button { 
     &.buttonApps {
@@ -119,9 +120,13 @@ footer {
   .footer__center {
       margin-right: 90px;
   }
-  a {
+  a { 
     margin: 0 14px;
     color:rgba(70, 67, 67, 0.911);
+    &:link, &:visited {text-decoration: none;}
+    &:hover {
+      text-decoration: underline;
+    }
   }
   img {
     width: 12px;
