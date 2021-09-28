@@ -68,13 +68,13 @@ main {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 146px;
-  figure {
+  figure#logoGoogle {
     max-width: 272px;
     img {
       width: 100%;
     }
   }
-  section {
+  section#searchSection {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,13 +94,16 @@ main {
       padding: 11px;
       border-radius: 25px;
       border-color: rgba(184, 178, 178, 0.151);
+      &:focus {
+        border-color: transparent;
+      }
       &:hover {
         box-shadow: 0 2px 2px rgba(128, 128, 128, 0.431);
       }
+      
     }
   }
-
-  div {
+  div#searchButtons {
     button {
       margin: 0 6px;
       padding: 7px 13px;
@@ -124,31 +127,27 @@ footer {
   flex-flow: column nowrap;
   color:rgba(93, 90, 90, 0.787);
   font-size: 14px;
-  & > * {
+  > div {
     padding: 15px;
   }
-  & > section {
+  > section {
     display: flex;
     justify-content: space-between;
     border: 1px solid transparent;
     border-top-color: rgba(143, 134, 134, 0.541);
-  }
-  .footer__center {
-      margin-right: 90px;
-  }
-  a { 
-    margin: 0 14px;
-    color:rgba(70, 67, 67, 0.911);
-    &:link, &:visited {text-decoration: none;}
-    &:hover {
-      text-decoration: underline;
+    padding: 15px;
+    a { 
+      margin: 0 14px;
+      color:rgba(70, 67, 67, 0.911);
+      &:link, &:visited { text-decoration: none; }
+      &:hover { text-decoration: underline; }
     }
-  }
-  img {
-    width: 12px;
-    margin-right: 5px;
-  }
-  & > div {
-    padding-left: 25px;
+    .footer__center {
+      margin-right: 90px;
+      img {
+        width: 12px;
+        margin-right: 5px;
+      }
+    }
   }
 }

@@ -74,24 +74,24 @@ main {
   align-items: center;
   padding-bottom: 146px;
 }
-main figure {
+main figure#logoGoogle {
   max-width: 272px;
 }
-main figure img {
+main figure#logoGoogle img {
   width: 100%;
 }
-main section {
+main section#searchSection {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   width: 600px;
 }
-main section img {
+main section#searchSection img {
   height: 25px;
   width: auto;
 }
-main section input {
+main section#searchSection input {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -102,10 +102,13 @@ main section input {
   border-radius: 25px;
   border-color: rgba(184, 178, 178, 0.151);
 }
-main section input:hover {
+main section#searchSection input:focus {
+  border-color: transparent;
+}
+main section#searchSection input:hover {
   box-shadow: 0 2px 2px rgba(128, 128, 128, 0.431);
 }
-main div button {
+main div#searchButtons button {
   margin: 0 6px;
   padding: 7px 13px;
   font-family: arial, sans-serif;
@@ -115,7 +118,7 @@ main div button {
   border-color: transparent;
   border-radius: 6px;
 }
-main div button:hover {
+main div#searchButtons button:hover {
   box-shadow: 0 0 1px grey;
   cursor: pointer;
 }
@@ -127,7 +130,7 @@ footer {
   color: rgba(93, 90, 90, 0.787);
   font-size: 14px;
 }
-footer > * {
+footer > div {
   padding: 15px;
 }
 footer > section {
@@ -135,26 +138,24 @@ footer > section {
   justify-content: space-between;
   border: 1px solid transparent;
   border-top-color: rgba(143, 134, 134, 0.541);
+  padding: 15px;
 }
-footer .footer__center {
-  margin-right: 90px;
-}
-footer a {
+footer > section a {
   margin: 0 14px;
   color: rgba(70, 67, 67, 0.911);
 }
-footer a:link, footer a:visited {
+footer > section a:link, footer > section a:visited {
   text-decoration: none;
 }
-footer a:hover {
+footer > section a:hover {
   text-decoration: underline;
 }
-footer img {
+footer > section .footer__center {
+  margin-right: 90px;
+}
+footer > section .footer__center img {
   width: 12px;
   margin-right: 5px;
-}
-footer > div {
-  padding-left: 25px;
 }
 
 /*# sourceMappingURL=index.css.map */
