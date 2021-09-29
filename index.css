@@ -80,34 +80,34 @@ main figure#logoGoogle {
 main figure#logoGoogle img {
   width: 100%;
 }
-main section#searchSection {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 90%;
-  max-width: 580px;
-}
-main section#searchSection img {
-  height: 25px;
-  width: auto;
-}
-main section#searchSection input {
+main section#searchBar {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  gap: 10px;
   height: 46px;
-  width: 100%;
+  width: 90%;
+  max-width: 580px;
   margin: 22px 0 30px 0;
   padding: 11px;
+  border: 1px solid white;
   border-radius: 25px;
-  border-color: rgba(184, 178, 178, 0.151);
+  border-color: rgba(124, 119, 119, 0.274);
 }
-main section#searchSection input:focus {
+main section#searchBar:hover {
+  box-shadow: 0 2px 2px rgba(128, 128, 128, 0.431);
+}
+main section#searchBar input {
+  width: 100%;
   border-color: transparent;
 }
-main section#searchSection input:hover {
-  box-shadow: 0 2px 2px rgba(128, 128, 128, 0.431);
+main section#searchBar input:focus {
+  outline: none;
+}
+main section#searchBar img {
+  height: 25px;
+  width: auto;
 }
 main div#searchButtons button {
   margin: 0 6px;
